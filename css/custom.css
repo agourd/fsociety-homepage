@@ -1,0 +1,55 @@
+@font-face
+{
+    font-family: sega;
+    src: url(../font/SEGA.TTF);
+}
+
+.top-bar
+{
+	background-color: rgb(211,32,38);
+}
+
+.callout
+{
+	background-color: black;
+}
+
+.callout h1
+{
+	color: rgb(211,32,38);
+	font-size: 6em;
+	font-family: sega;
+}
+
+.callout .lead
+{
+	color: white;
+	font-size: 2em;
+}
+
+.member p
+{
+	text-align: center;
+}
+
+.countdown
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#clock
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 2em;
+	font-family: sega;
+	color: rgb(211,32,38);
+	padding: 15px;
+	margin: 5px;
+	font-weight: normal;
+}

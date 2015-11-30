@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>/dev/fsociety | The best device ever!</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+    <div class="callout large">
+        <div class="row column text-center">
+            <h1>/ dev / fsociety</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="medium-6 columns medium-push-6">
+            <img class="thumbnail" src="img/logo.png">
+        </div>
+        <div class="medium-6 columns medium-pull-6">
+            <h2>Notre site</h2>
+            <p class="lead countdown">
+            Découvrez notre magnifique site dans :<br/><span id="clock"></span></p>
+
+        </div>
+    </div>
+<hr>
+    <div class="row column">
+        <h3>Notre équipe</h3>
+    </div>
+    <div class="row medium-up-3 large-up-4">
+        <div class="column member">
+            <img class="thumbnail" src="img/anthony.jpg">
+            <p>Anthony Gourd</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/alban.jpg">
+            <p>Alban Chazot</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/camille.jpg">
+            <p>Camille Bertuglia</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/corentin.jpg">
+            <p>Corentin Mors</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/eric.jpeg">
+            <p>Eric Dericquebourg</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/kevin.png">
+            <p>Kévin Cohen-Tanugi</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/korlan.jpg">
+            <p>Korlan Colas</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/lisa.jpg">
+            <p>Lisa Aubry</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/louis.png">
+            <p>Louis Boury</p>
+        </div>
+        <div class="column member">
+            <img class="thumbnail" src="img/samuel.jpg">
+            <p>Samuel Forestier</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row column">
+        <blockquote>Réalisé par l'équipe /dev/fsociety à l'occasion de la nuit de l'info 2015</blockquote>
+    </div>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script>
+        $(document).foundation();
+        $('#clock').countdown('2015/12/04 00:00:00', function(event)
+        {
+            $(this).html(event.strftime('%D jours %H heures %M minutes %S secondes'));
+        });
+    </script>
+</body>
+</html>
